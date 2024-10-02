@@ -1,0 +1,250 @@
+* {
+    font-family: "Lexend", system-ui;
+    font-optical-sizing: auto;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.banner {
+    margin: 0 auto;
+    background-image: url('../Images/Banner\ Image.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 200%;
+    margin-top: 50px;
+}
+
+.banner-info {
+    padding-top: 200px;
+    opacity: 100000%;
+}
+
+.banner-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.banner-heading {
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+/* closed banner section */
+/* start offer section  */
+
+.offer {
+    margin-bottom: 100px;
+}
+
+.offer-off {
+    font-size: 100px;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.offer-heading {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.offer-title {
+    font-size: 50px;
+    font-weight: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.offer-img {
+    text-align: center;
+}
+
+/* closed offer section */
+/* start party section  */
+
+.party {
+    background-image: url('../Images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.party-element {
+    width: 880px;
+    padding: 80px 0px 30px 30px;
+}
+
+.party-title {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.offer-des {
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    color: white;
+    background: none;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.btn-primary:hover {
+    background: #000;
+    color: red;
+}
+
+.party-img {
+    padding: 90px 150px 30px 0px;
+}
+
+/* closed party section */
+/* start best-offer section  */
+
+.best-offer {
+    margin-bottom: 100px;
+}
+
+.best-offer-content {
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+    gap: 40px;
+}
+
+.left-column {
+    width: 750px;
+}
+
+.left-title {
+    font-size: 35px;
+    font-weight: 500;
+    color: red;
+}
+
+.left-heading {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mid-column {
+    padding: 20px;
+    border: 20px solid red;
+    border-radius: 50%;
+}
+
+.left-des {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* closed best-offer section */
+/* start holidays-sale section  */
+
+.holidays-sale {
+    margin-bottom: 100px;
+}
+
+.holidays-sale-hedding {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.holidayes-sale-title {
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.single-word {
+    color: red;
+}
+
+.holidayes-sale-dis {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.holidayes-sale-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-image: url('../Images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.holidays-right {
+    position: relative;
+}
+
+.holidays-right img {
+    height: 416px;
+    padding-left: 191px;
+}
+
+.abs {
+    position: absolute;
+    top: 16px;
+    left: -232px;
+}
+
+/* closed holidays-sale section */
+/* start best-gift section  */
+
+.best-gift {
+    margin-bottom: 100px;
+}
+
+.best-gift-title {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.best-gift-dis {
+    margin-bottom: 30px;
+}
+
+.best-gift-img img {
+    /* border: 1px solid pink; */
+    border-radius: 18px;
+    width: 100%;
+}
+
+.best-gift-img img:hover {
+    /* border: 1px solid pink; */
+    box-shadow: 5px 5px 10px pink;
+}
+
+.best-gift-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 25px;
+}
